@@ -96,3 +96,59 @@ button a:hover {
 
 /* ABOUT */
 
+#about {
+    width: 100%;
+    background-image: url("images/about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 6.25em;
+}
+
+.about-content {
+    width: 85%;
+    height: 31.25em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 0.625em;
+}
+
+.about-header {
+    width: 50%;
+    color: #000000;
+    font-size: 2.75rem;
+}
+
+.about-header h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+
+.about-header span {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    text-decoration: 4px underline #0000ff;
+}
+
+.about-info {
+    width: 50%;
+    max-height: 25em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+}
+
+.about-info p {
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* VISIT */
+
