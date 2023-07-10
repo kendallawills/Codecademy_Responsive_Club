@@ -292,3 +292,32 @@ button a:hover {
 
 /* CONTACT */
 
+#contact {
+    width: 100%;
+    color: #ffffff;
+    background-image: url("images/blue-paint.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 6.25em;
+}
+
+.contact {
+    text-align: center;
+    padding-bottom: 0.625rem;
+}
+
+.contact h3 {
+    font-size: 1.25em;
+}
+
+.contact p {
+    margin: 0;
+}
+
+/* MEDIA QUERIES */
+
