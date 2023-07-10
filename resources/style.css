@@ -321,3 +321,67 @@ button a:hover {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 600px) {
+    nav a {
+        letter-spacing: 1px;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+
+    .club-name h1 {
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .about-header {
+        width: 100%;
+    }
+
+    .about-header h2 {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .about-info {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .about-info p {
+        width: 100%;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .visit {
+        width: 100%;
+    }
+
+    .visit-photo {
+        width: 40%;
+    }
+
+    .visit-info {
+        width: 40%;
+    }
+
+    .contact h3 {
+        font-size: 1rem;
+    }
+
+    .contact p {
+        font-size: 0.75rem;
+    }
+}
