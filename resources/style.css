@@ -159,7 +159,7 @@ button a:hover {
     position: relative;
     top: 6.25em;
     padding-top: 0.625em;
-    padding-top: 0.625em;
+    padding-bottom: 0.625em;
 }
 
 .visit-header {
@@ -231,4 +231,64 @@ button a:hover {
 }
 
 /* OUR TEAM */
+
+#team {
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    position: relative;
+    top: 6.25em;
+    margin: 0 auto;
+}
+
+.team-content {
+    margin: 0 auto;
+}
+
+.team-header {
+    text-align: center;
+}
+
+.team-header h2 {
+    font-family: "Times New Roman", times, serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.team {
+    display: flex;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.name h3 {
+    color: #0000ff;
+    font-weight: 700;
+}
+
+.lauren,
+.amber,
+.domenic,
+.alyssa,
+.ian,
+.donald {
+    text-align: center;
+}
+
+/* CONTACT */
 
